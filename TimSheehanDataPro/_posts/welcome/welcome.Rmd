@@ -1,0 +1,26 @@
+---
+title: "Welcome to Tim Sheehan Data Professional"
+description: |
+  Welcome to my new blog, Tim Sheehan Data Professional. I hope you enjoy 
+  reading what I have to say!
+author:
+  - name: Tim Sheehan 
+    url: https://www.linkedin.com/in/timothy-sheehan-20551547/
+    url: https://github.com/tech2188/TimSheehanDataPro
+
+date: 06-17-2023
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+
+
