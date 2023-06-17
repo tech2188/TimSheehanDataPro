@@ -2,18 +2,18 @@
   {
     "path": "posts/welcome/",
     "title": "Welcome to Tim Sheehan Data Professional",
-    "description": "Welcome to our new blog, Tim Sheehan Data Professional. We hope you enjoy \nreading what we have to say!",
+    "description": "Welcome to my new blog, Tim Sheehan Data Professional. I hope you enjoy \nreading what I have to say!",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Tim Sheehan",
+        "url": "https://www.linkedin.com/in/timothy-sheehan-20551547/"
       }
     ],
     "date": "2023-06-17",
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-06-17T15:36:35-04:00",
-    "input_file": {}
+    "last_modified": "2023-06-17T16:42:34-04:00",
+    "input_file": "welcome.knit.md"
   }
 ]
