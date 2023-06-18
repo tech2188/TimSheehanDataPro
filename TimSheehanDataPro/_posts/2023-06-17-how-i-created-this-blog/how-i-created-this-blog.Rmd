@@ -1,0 +1,23 @@
+---
+title: "How I created This Blog"
+description: |
+  A short description of the post.
+author:
+  - name: Tim Sheehan
+    url: https://www.linkedin.com/in/timothy-sheehan-20551547/
+date: 2023-06-17
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+

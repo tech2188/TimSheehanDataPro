@@ -6,7 +6,6 @@ description: |
 author:
   - name: Tim Sheehan 
     url: https://www.linkedin.com/in/timothy-sheehan-20551547/
-    url: https://github.com/tech2188/TimSheehanDataPro
     Email: tsheehan.datapro@gmail.com
 
 date: 06-17-2023
