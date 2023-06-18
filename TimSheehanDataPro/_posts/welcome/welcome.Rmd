@@ -14,6 +14,9 @@ output:
     self_contained: false
 ---
 
+My LinkedIn: <https://www.linkedin.com/in/timothy-sheehan-20551547/>
+My Github: <https://github.com/tech2188>
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 

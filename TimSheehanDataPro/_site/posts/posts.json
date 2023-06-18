@@ -28,9 +28,9 @@
     ],
     "date": "2023-06-17",
     "categories": [],
-    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\nThe links below are what i followed to build this blog. some basic Rmarkdown and these links will get you up and going.\r\nhttps://themockup.blog/posts/2020-08-01-building-a-blog-with-distill/\r\nhttps://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet\r\nhttps://www.youtube.com/watch?v=ZOBXGxPH3Zo\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-06-18T11:57:01-04:00",
+    "last_modified": "2023-06-18T12:12:19-04:00",
     "input_file": {}
   },
   {
