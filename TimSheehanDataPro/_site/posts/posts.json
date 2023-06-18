@@ -1,5 +1,39 @@
 [
   {
+    "path": "posts/second-post/",
+    "title": "Second post",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Tim Sheehan",
+        "url": "https://www.linkedin.com/in/timothy-sheehan-20551547/"
+      }
+    ],
+    "date": "2023-06-18",
+    "categories": [],
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2023-06-18T11:57:49-04:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/how/",
+    "title": "How I created This Blog",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Tim Sheehan",
+        "url": "https://www.linkedin.com/in/timothy-sheehan-20551547/"
+      }
+    ],
+    "date": "2023-06-17",
+    "categories": [],
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2023-06-18T11:57:01-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to Tim Sheehan Data Professional",
     "description": "Welcome to my new blog, Tim Sheehan Data Professional. I hope you enjoy \nreading what I have to say!",

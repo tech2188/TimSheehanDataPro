@@ -1,0 +1,31 @@
+---
+title: "How I created This Blog"
+description: |
+  A short description of the post.
+author:
+  - name: Tim Sheehan
+    url: https://www.linkedin.com/in/timothy-sheehan-20551547/
+date: 2023-06-17
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+The links below are what i followed to build this blog. some basic Rmarkdown and these links will get you up and going.
+
+<https://themockup.blog/posts/2020-08-01-building-a-blog-with-distill/>
+<https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>
+<https://www.youtube.com/watch?v=ZOBXGxPH3Zo>
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at https://rstudio.github.io/distill.

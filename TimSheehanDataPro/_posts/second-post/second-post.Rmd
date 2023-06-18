@@ -1,11 +1,11 @@
 ---
-title: "How I created This Blog"
+title: "Second post"
 description: |
   A short description of the post.
 author:
   - name: Tim Sheehan
     url: https://www.linkedin.com/in/timothy-sheehan-20551547/
-date: 2023-06-17
+date: 2023-06-18
 output:
   distill::distill_article:
     self_contained: false

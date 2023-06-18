@@ -27,6 +27,10 @@ Distill is a publication format for scientific and technical writing, native to 
 
 Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
 
+issue that came up due to package changes: <https://github.com/rstudio/distill/issues/488>
+
+Another option that i have learned about is quarto. <https://quarto.org/docs/websites/>
+
 
 
 
