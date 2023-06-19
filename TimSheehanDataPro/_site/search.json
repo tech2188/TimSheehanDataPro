@@ -3,17 +3,17 @@
     {
       "path": "about.html",
       "title": "About this blog",
-      "description": "Some additional details about the blog",
+      "description": "Welcome to my new blog, Tim Sheehan Data Professional. I hope you enjoy \nreading what I have to say!\n",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-06-18T17:48:25-04:00"
+      "contents": "\r\n\r\n\r\n\r\nMy LinkedIn: https://www.linkedin.com/in/timothy-sheehan-20551547/ \r\nMy Github: https://github.com/tech2188 \r\nEmail: tsheehan.datapro@gmail.com \r\nHi, My name is Tim Sheehan. Welcome to my personal website. This site is 1 part portfolio and 1 part me playing around. I hope you find something of value that will enrich your life.\r\nI am passionate about helping people and about data analytics.\r\nBuilt with R Version: 4.3.1 \r\n\r\n\r\n\r\n",
+      "last_modified": "2023-06-19T19:47:11-04:00"
     },
     {
       "path": "index.html",
       "title": "Tim Sheehan Data Professional",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-06-18T17:48:26-04:00"
+      "last_modified": "2023-06-19T19:46:39-04:00"
     }
   ],
   "collections": ["posts/posts.json"]

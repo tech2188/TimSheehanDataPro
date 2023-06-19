@@ -5,5 +5,5 @@ listing:
   posts:
   - welcome
   - how
-  - second-post
+  - witty-one-liners
 ---

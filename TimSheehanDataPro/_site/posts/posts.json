@@ -1,19 +1,19 @@
 [
   {
-    "path": "posts/second-post/",
-    "title": "Second post",
-    "description": "A short description of the post.",
+    "path": "posts/witty-one-liners/",
+    "title": "Witty One Liners",
+    "description": "This is a collection of witty one liners that i really like.",
     "author": [
       {
         "name": "Tim Sheehan",
-        "url": "https://www.linkedin.com/in/timothy-sheehan-20551547/"
+        "url": {}
       }
     ],
     "date": "2023-06-18",
     "categories": [],
-    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "contents": "\r\n\r\nblock quote\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-06-18T11:57:49-04:00",
+    "last_modified": "2023-06-19T19:42:48-04:00",
     "input_file": {}
   },
   {
@@ -28,9 +28,9 @@
     ],
     "date": "2023-06-17",
     "categories": [],
-    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\nThe links below are what i followed to build this blog. some basic Rmarkdown and these links will get you up and going.\r\nhttps://themockup.blog/posts/2020-08-01-building-a-blog-with-distill/\r\nhttps://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet\r\nhttps://www.youtube.com/watch?v=ZOBXGxPH3Zo\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\nThe links below are what i followed to build this blog. I’m not going to lie to you. This was hard to create, but I learned a lot in the process. In order to get this website launched, I had to learn the distill package, GIT / Github work flows and some basic web design. The beauty is that now that I finally have this site setup and working, now i can truly begin to learn and show my skills.\r\nA big benefit to using R Markdown and Distill is keeping your cost low. So far my only cost has been buying the domain name.\r\nhttps://themockup.blog/posts/2020-08-01-building-a-blog-with-distill/\r\nhttps://www.youtube.com/watch?v=ZOBXGxPH3Zo\r\nCheat Sheets R Markdown \r\n+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet\r\n+https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf\r\nHTML \r\n+https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf\r\n+https://htmlcheatsheet.com/\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-06-18T12:12:19-04:00",
+    "last_modified": "2023-06-19T19:33:07-04:00",
     "input_file": {}
   },
   {
@@ -45,9 +45,9 @@
     ],
     "date": "2023-06-17",
     "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
+    "contents": "\r\n\r\n\r\n\r\nMy LinkedIn: https://www.linkedin.com/in/timothy-sheehan-20551547/ \r\nMy Github: https://github.com/tech2188 \r\nEmail: tsheehan.datapro@gmail.com \r\nHi, My name is Tim Sheehan. Welcome to my personal website. This site is 1 part portfolio and 1 part me playing around. I hope you find something of value that will enrich your life.\r\nI am passionate about helping people and about data analytics.\r\nBuilt with R Version: 4.3.1 \r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-06-17T16:42:35-04:00",
+    "last_modified": "2023-06-19T19:37:40-04:00",
     "input_file": {}
   }
 ]

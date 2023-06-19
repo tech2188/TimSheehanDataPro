@@ -14,8 +14,7 @@ output:
     self_contained: false
 ---
 
-My LinkedIn: <https://www.linkedin.com/in/timothy-sheehan-20551547/>
-My Github: <https://github.com/tech2188>
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -27,3 +26,24 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
+
+```{r Picture, include=TRUE, out.width = "30%", fig.align = "center"}
+knitr::opts_chunk$set(echo = FALSE)
+
+knitr::include_graphics("C:/Users/sound/OneDrive/Shared Transfer/Documents/R Script/TimSheehanDataPro/TimSheehanDataPro/_posts/welcome/welcome_files/Pictures/BGSU Grad.jpg")
+
+```
+
+My LinkedIn: <https://www.linkedin.com/in/timothy-sheehan-20551547/> <br>
+My Github: <https://github.com/tech2188> <br>
+Email: <tsheehan.datapro@gmail.com> <br>
+
+
+Hi, My name is Tim Sheehan. Welcome to my personal website. This site is 1 part portfolio and 1 part me playing around. I hope you find something of value that will enrich your life.
+
+I am passionate about helping people and about data analytics. 
+
+
+
+
+Built with R Version: `r getRversion()` <br>
