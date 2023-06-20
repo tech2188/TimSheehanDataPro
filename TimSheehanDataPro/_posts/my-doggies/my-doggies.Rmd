@@ -2,6 +2,7 @@
 title: "My Doggies"
 description: |
   Some pictures of my doggies.
+
 author:
   - name: Tim Sheehan
     url: {}
