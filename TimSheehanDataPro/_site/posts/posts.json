@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/my-doggies/",
+    "title": "My Doggies",
+    "description": "Some pictures of my doggies.",
+    "author": [
+      {
+        "name": "Tim Sheehan",
+        "url": {}
+      }
+    ],
+    "date": "2023-06-19",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/my-doggies/Pictures/Puppies.jpg",
+    "last_modified": "2023-06-19T20:09:45-04:00",
+    "input_file": "my-doggies.knit.md"
+  },
+  {
     "path": "posts/witty-one-liners/",
     "title": "Witty One Liners",
     "description": "This is a collection of witty one liners that i really like.",
