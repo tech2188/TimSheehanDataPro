@@ -13,8 +13,8 @@
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/my-doggies/Pictures/Puppies.jpg",
-    "last_modified": "2023-06-19T20:09:45-04:00",
-    "input_file": "my-doggies.knit.md"
+    "last_modified": "2023-06-19T20:25:58-04:00",
+    "input_file": {}
   },
   {
     "path": "posts/witty-one-liners/",
@@ -47,7 +47,7 @@
     "categories": [],
     "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\nThe links below are what i followed to build this blog. I’m not going to lie to you. This was hard to create, but I learned a lot in the process. In order to get this website launched, I had to learn the distill package, GIT / Github work flows and some basic web design. The beauty is that now that I finally have this site setup and working, now i can truly begin to learn and show my skills.\r\nA big benefit to using R Markdown and Distill is keeping your cost low. So far my only cost has been buying the domain name.\r\nhttps://themockup.blog/posts/2020-08-01-building-a-blog-with-distill/\r\nhttps://www.youtube.com/watch?v=ZOBXGxPH3Zo\r\nCheat Sheets R Markdown \r\n+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet\r\n+https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf\r\nHTML \r\n+https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf\r\n+https://htmlcheatsheet.com/\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-06-19T19:33:07-04:00",
+    "last_modified": "2023-06-19T20:18:10-04:00",
     "input_file": {}
   },
   {
