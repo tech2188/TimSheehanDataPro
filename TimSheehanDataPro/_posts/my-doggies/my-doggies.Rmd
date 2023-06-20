@@ -1,0 +1,46 @@
+---
+title: "My Doggies"
+description: |
+  A short description of the post.
+author:
+  - name: Tim Sheehan
+    url: {}
+date: 2023-06-19
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r Picture, include=TRUE, echo=FALSE, out.width = "50%", fig.align = "center"}
+
+PictureFolder <- "C:/Users/sound/OneDrive/Shared Transfer/Documents/R Script/TimSheehanDataPro/TimSheehanDataPro/_posts/my-doggies/Pictures/"
+# need to make this into a query of the above folder so that it will automatically add pictures
+
+Pictures <- c("Puppies.jpg", "Puppy Gabby.jpeg","Puppy Michael.jpeg", "Gabby going in.jpg")
+
+# for (file in Pictures) {
+#   knitr::include_graphics(paste0(PictureFolder,file))
+#   
+# }
+knitr::include_graphics(paste0(PictureFolder,Pictures[1]))
+knitr::include_graphics(paste0(PictureFolder,Pictures[2]))
+knitr::include_graphics(paste0(PictureFolder,Pictures[3]))
+knitr::include_graphics(paste0(PictureFolder,Pictures[4]))
+
+
+```
+
+```{r gifs, include=TRUE, echo=FALSE, out.width = "50%", fig.align = "center"}
+
+
+
+
+knitr::include_graphics(paste0(PictureFolder,"Gabby-ANIMATION.gif"))
+knitr::include_graphics(paste0(PictureFolder,"Playing-ANIMATION.gif"))
+
+```
+
+
+
+
