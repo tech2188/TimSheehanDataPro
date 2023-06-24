@@ -1,0 +1,110 @@
+---
+title: "Playing With Python"
+description: |
+  This post is just me playing around with learning Python.
+author:
+  - name: Tim Sheehan
+    url: {}
+date: 2023-06-24
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+I have a good handle on R scrip but i wanted to learn python to round out my skills. 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+I am following an example from Maven Analytics course Python Foundations for Data Analysis
+
+```{python Python1, echo=TRUE, include = TRUE}
+import pandas
+
+def tax_calculator(subtotal, sales_tax=0):  # adding = gives default argument if none given
+    """ takes in a subtotal and tax rate and returns total sale
+    
+    Args:
+        subtotal (float): cost of transaction
+        sales_tax (float): tax rate at store location
+    Returns:
+        (float): total amount owed
+    
+    """
+    total = subtotal + (subtotal * sales_tax)
+    return total
+
+totalsale = tax_calculator(100, .06)
+
+print(totalsale)
+```
+
+R Script Version
+```{r Rscript, echo=TRUE, include = TRUE}
+
+Rtax_calculator <- function(subtotal, sales_tax){
+  total = subtotal + (subtotal*sales_tax)
+  
+}
+
+totalsaleR <- Rtax_calculator(100,.06)
+
+print(totalsaleR)
+
+
+```
+
+Python
+
+```{python Python2, echo=TRUE, include = TRUE}
+
+website_ratings = ["5 stars", "4 3star"]
+
+def rating_cleaner(*ratings, index = 0):
+    """ takes in a string and returns a clean integer
+    
+    Args:
+        ratings (string): string to be cleaned
+        index (int, optional): location in the string 
+    Returns:
+        (int): clean integer
+    
+    """
+    for rating in ratings:
+        numeric_rating = int(rating[index])
+        print(numeric_rating)
+
+rating_cleaner(*website_ratings)
+
+
+```
+```{python Python3, echo=TRUE, include = TRUE}
+
+website_ratings = ["5 stars", "4 star", "3stars"]
+
+def rating_cleaner2(rating):
+    numeric_rating = int(rating[0])
+    # global numeric_rating = int(rating[0])  # global function allows variable to be used outside of the function
+    return rating, numeric_rating
+
+rating, numeric_rating = rating_cleaner2(website_ratings[0])
+
+rating
+numeric_rating
+```
+
+```{python Python Create Modules, echo=TRUE, include = TRUE}
+# %% writefile rating_cleaner2.py allows the creation of a module aka personal library that can later be imported and used.
+
+# def rating_cleaner2(rating):
+#     numeric_rating = int(rating[0])
+#     return rating, numeric_rating
+
+# import ratingcleaner2 as r
+
+# r.ratingcleaner2()
+
+```
+
+

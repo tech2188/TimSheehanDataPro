@@ -5,6 +5,7 @@ listing:
   posts:
   - welcome
   - how
+  - playing-with-python
   - my-doggies 
   - witty-one-liners
 ---

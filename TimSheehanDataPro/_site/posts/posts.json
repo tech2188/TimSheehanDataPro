@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/playing-with-python/",
+    "title": "Playing With Python",
+    "description": "This post is just me playing around with learning Python.",
+    "author": [
+      {
+        "name": "Tim Sheehan",
+        "url": {}
+      }
+    ],
+    "date": "2023-06-24",
+    "categories": [],
+    "contents": "\r\nI have a good handle on R scrip but i wanted to learn python to round out my skills.\r\nI am following an example from Maven Analytics course Python Foundations for Data Analysis\r\n\r\nimport pandas\r\n\r\ndef tax_calculator(subtotal, sales_tax):\r\n    \"\"\" takes in a subtotal and tax rate and returns total sale\r\n    \r\n    Args:\r\n        subtotal (float): cost of transaction\r\n        sales_tax (float): tax rate at store location\r\n    Returns:\r\n        float: total amount owed\r\n    \r\n    \"\"\"\r\n    total = subtotal + (subtotal * sales_tax)\r\n    return total\r\n\r\ntotalsale = tax_calculator(100, .06)\r\n\r\nprint(totalsale)\r\n106.0\r\n\r\nR Script Version\r\n\r\n\r\nRtax_calculator <- function(subtotal, sales_tax){\r\n  total = subtotal + (subtotal*sales_tax)\r\n  \r\n}\r\n\r\ntotalsaleR <- Rtax_calculator(100,.06)\r\n\r\nprint(totalsaleR)\r\n\r\n[1] 106\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2023-06-24T13:08:53-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/my-doggies/",
     "title": "My Doggies",
     "description": "Some pictures of my doggies.",
@@ -64,7 +81,7 @@
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\nMy LinkedIn: https://www.linkedin.com/in/timothy-sheehan-20551547/ \r\nMy Github: https://github.com/tech2188 \r\nEmail: tsheehan.datapro@gmail.com \r\nHi, My name is Tim Sheehan. Welcome to my personal website. This site is 1 part portfolio and 1 part me playing around. I hope you find something of value that will enrich your life.\r\nI am passionate about helping people and about data analytics.\r\nBuilt with R Version: 4.3.1 \r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-06-19T19:37:40-04:00",
+    "last_modified": "2023-06-24T13:50:06-04:00",
     "input_file": {}
   }
 ]

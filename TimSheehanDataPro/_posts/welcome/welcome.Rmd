@@ -14,21 +14,7 @@ output:
     self_contained: false
 ---
 
-
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating blogs with Distill at:
-# https://rstudio.github.io/distill/blog.html
-
-```
-
-
-
-
-```{r Picture, include=TRUE, out.width = "30%", fig.align = "center"}
-knitr::opts_chunk$set(echo = FALSE)
+```{r Picture, include=TRUE, echo=FALSE, out.width = "50%", fig.align = "center"}
 
 knitr::include_graphics("C:/Users/sound/OneDrive/Shared Transfer/Documents/R Script/TimSheehanDataPro/TimSheehanDataPro/_posts/welcome/welcome_files/Pictures/BGSU Grad.jpg")
 
