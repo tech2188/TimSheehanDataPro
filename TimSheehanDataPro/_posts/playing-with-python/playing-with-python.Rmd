@@ -11,13 +11,13 @@ output:
     self_contained: false
 ---
 
-I have a good handle on R scrip but i wanted to learn python to round out my skills. 
+I have a good handle on R scrip but I wanted to learn python to round out my skills. <br>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-I am following an example from Maven Analytics course Python Foundations for Data Analysis
+I am following an example from Maven Analytics course Python Foundations for Data Analysis <br>
 
 ```{python Python1, echo=TRUE, include = TRUE}
 import pandas
@@ -40,7 +40,8 @@ totalsale = tax_calculator(100, .06)
 print(totalsale)
 ```
 
-R Script Version
+R Script Version <br>
+
 ```{r Rscript, echo=TRUE, include = TRUE}
 
 Rtax_calculator <- function(subtotal, sales_tax){
@@ -55,7 +56,7 @@ print(totalsaleR)
 
 ```
 
-Python
+Python text cleaner <br>
 
 ```{python Python2, echo=TRUE, include = TRUE}
 
@@ -79,6 +80,9 @@ rating_cleaner(*website_ratings)
 
 
 ```
+
+Outputting to separate variables <br>
+
 ```{python Python3, echo=TRUE, include = TRUE}
 
 website_ratings = ["5 stars", "4 star", "3stars"]
@@ -93,6 +97,7 @@ rating, numeric_rating = rating_cleaner2(website_ratings[0])
 rating
 numeric_rating
 ```
+Notes about writing personal code libraries that can be imported and used later. <br>
 
 ```{python Python Create Modules, echo=TRUE, include = TRUE}
 # %% writefile rating_cleaner2.py allows the creation of a module aka personal library that can later be imported and used.
