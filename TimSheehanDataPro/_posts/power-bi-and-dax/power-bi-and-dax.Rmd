@@ -1,0 +1,30 @@
+---
+title: "Power BI and DAX"
+description: |
+  Just me showing some of my work in Power BI or Excel Power Pivot.
+author:
+  - name: Tim Sheehan
+    url: {}
+date: 2023-06-24
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+The biggest tip i can say is making a custom rolling calendar. This is the M Code to start it.
+
+let
+    Source = #date(2017, 1, 1),
+    Custom1 = List.Dates(Source, Number.From(DateTime.LocalNow())- Number.From(Source) ,#duration(1,0,0,0)),
+    #"Converted to Table" = Table.FromList(Custom1, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+    #"Changed Type" = Table.TransformColumnTypes(#"Converted to Table",{{"Column1", type date}}),
+    
+  
+  
+  Its a good idea to hide your forigen keys in report view to prevent poor filtering processes. this prevents relationships/joins with missing key values unless that is a desired feature( using a relationship as an implicit filter)  
+    

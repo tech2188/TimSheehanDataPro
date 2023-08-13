@@ -1,7 +1,7 @@
 distill::create_blog(dir = "TimSheehanDataPro", title = "Tim Sheehan Data Professional")
 library(distill)
 
-distill::create_post("Playing With Python")
+distill::create_post("Power BI and DAX")
 
 
 rmarkdown::render_site()

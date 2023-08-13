@@ -1,0 +1,42 @@
+---
+title: "Getting Stock Data"
+description: |
+  A short description of the post.
+author:
+  - name: Tim Sheehan
+    url: {}
+date: 2023-08-13
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+install.packages("tidyverse")
+install.packages("quantmod")
+
+library(tidyverse)
+library(quantmod) # Yahoo Data https://www.youtube.com/watch?v=6FBgMqx9PHo
+getSymbols("ATSG")
+
+
+```
+
+```{r API Testing}
+
+install.packages("jsonlite")
+install.packages("httr")
+
+
+library(jsonlite)
+library(httr)
+
+url <- "Some text string data type CSV" #https://www.alphavantage.co/documentation/
+
+d <- read_csv(url)
+
+```
+
